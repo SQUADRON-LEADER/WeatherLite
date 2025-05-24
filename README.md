@@ -9,7 +9,7 @@ Your go-to minimalist and responsive weather app built with **React** and powere
 
 ### 🔗 Live Demo
 
-[🚀 Click here to view the app live](https://squadron-leader.github.io/WeatherLite/)
+[🚀 Enjoy The Weather ](https://squadron-leader.github.io/WeatherLite/)
 
 ---
 
