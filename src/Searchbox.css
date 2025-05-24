@@ -1,0 +1,53 @@
+.searchbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: #1976d2; /* Material UI primary blue */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+  animation: slideIn 0.5s ease-out;
+}
+
+.searchbox h3 {
+  margin-bottom: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.searchbox form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Override Material UI TextField styles for white text */
+.searchbox .MuiInputBase-root {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .searchbox {
+    padding: 16px !important;
+    margin: 10px auto !important;
+  }
+}
